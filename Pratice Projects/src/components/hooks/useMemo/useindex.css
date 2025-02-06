@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button.green {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  button.green:hover {
+    background-color: #45a049;
+  }
+  
+  button.red {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  button.red:hover {
+    background-color: #e41f1f;
+  }
+  

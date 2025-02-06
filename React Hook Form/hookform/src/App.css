@@ -1,0 +1,60 @@
+.userForm{
+    margin: 0 auto;
+    width: 500px;
+    border: 2px solid gray;
+    padding: 20px;
+    font-size: 20px;
+}
+.formGroup{
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.formGroup label{
+    display: inline-block;
+    vertical-align: top;
+    min-width: 100px;
+}
+
+input[type=number]{
+    margin-left: 20px;
+
+}
+input[type=submit]{
+    border: 2px solid gray;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 30%;
+
+}
+
+
+.addBtn{
+    padding: 2px;
+    background-color:  gray;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.delBtn{
+    padding: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.get{
+    border: 2px solid gray;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 6px;
+}

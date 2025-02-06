@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    padding: 16px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+  
+  .button {
+    padding: 12px 24px;
+    background-color: #00bcd4; /* Cyan color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  
+  .button:hover {
+    background-color: #008c9e; /* Darker cyan on hover */
+  }
+  
+  p {
+    font-size: 18px;
+    margin-top: 12px;
+  }
+  

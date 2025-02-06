@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+
+  background-color: rgba(56, 50, 46, 0.858);
+  margin-top: 0;
+  height: 13rem;
+}
+
+.main-section{
+  display: flex;
+  padding-left: 6rem;
+  padding-right: 7rem;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.main-section h1{
+  margin-top: 50px;
+  color: white;
+}
+
+.main-section h1 span{
+  color: red;
+}
+.main-section input{
+  margin-top: 37px;
+  padding: 8px;
+  border: 2px solid red;
+  background-color: none;
+  border-radius: 5px;
+  background-color: rgba(76, 73, 70, 0.858);
+  
+}
+.search-food input::placeholder {
+  color: white;  
+}
+.btn-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.btn-all{
+  color: white;
+  background-color: rgb(186, 32, 96);
+  border-radius: 5px;
+}
+.all{
+  padding: 7px 10px; 
+}
+
+
+.card-main-section{
+  width: 330px;
+  height: 150px;
+  color: white;
+  background-color: rgb(114, 197, 114);
+  font-size: 14px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.card-section{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.left-section img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.recipe-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-row-gap: 50px;
+  margin-top: 5rem;
+  padding-left: 50px;
+
+}
